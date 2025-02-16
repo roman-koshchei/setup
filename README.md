@@ -5,6 +5,8 @@ Workstation, homelab, networking and any other setup information for my workflow
 
 ## Workstation
 
+Folder: `workstation`
+
 Setup for the main work machine, currently it's *Lenovo Legion 5*.
 The difference between tools and software is that
 software might not be directly used for engineering.
