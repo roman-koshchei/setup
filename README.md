@@ -63,3 +63,17 @@ Drivers:
 Gaming (controversial):
 - SKlauncher for minecraft
 - Stream for Unturned
+
+### SSH
+
+Setting up SSH for Git is a bit of a pain.
+
+GitHub tutorial: [docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key-for-a-hardware-security-key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key-for-a-hardware-security-key)
+
+Gist guide (preferred): [gist.github.com/bsara/5c4d90db3016814a3d2fe38d314f9c23](https://gist.github.com/bsara/5c4d90db3016814a3d2fe38d314f9c23). 
+
+
+Associated files are placed in `./workstation/ssh`. Here are explanations:
+- `config` - ssh config, must be placed in `~/.ssh/` on machine
+- `.bashrc` - adds ssh keys on start of bash, placed in `~/`
+- `.bash_profile` - comes together and might be generated automatically, placed in `~/`
