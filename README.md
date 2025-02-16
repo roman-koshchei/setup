@@ -47,8 +47,11 @@ Software:
 - OBS
 - Malwarebytes
 - Bloody7 for mouse
+- Zoom, university
+- Microsoft Teams, university
 
 Drivers:
+- [Canary Keyboard Layout](https://github.com/Apsu/Canary/releases/tag/v1.0)
 - Epson Software Updater
 - Lenovo Vantage
 - Inter Driver
